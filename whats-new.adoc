@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
+summary: 瞭解內部ONTAP 部署的更新功能。 
+---
+= 內部ONTAP 部署的更新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+瞭解內部ONTAP 部署的更新功能。
+
+
+
+== 2022年2月27日
+
+
+
+=== 數位錢包提供「ONTAP 內部部署的功能」索引標籤。
+
+現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html#viewing-cluster-information-and-contract-details["請參閱如何檢視這項重要的內部叢集資訊"]。您必須擁有適用於叢集的NetApp支援網站帳戶（NSS）、而且必須將您的Cloud Manager帳戶附加至新的資信。
+
+
+
+== 2022年1月11日
+
+
+
+=== 您在內部ONTAP 的等量資料叢集上新增到磁碟區的標記、可與標記服務搭配使用。
+
+您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。
+
+
+
+== 2021年11月28日
+
+
+
+=== 已ONTAP 簡化內部部署的架構叢集建立Volume精靈
+
+我們重新設計了「建立Volume精靈」、以方便使用、現在您可以選擇自訂的匯出原則。
+
+
+
+== 2021年3月8日
+
+
+
+=== 內部使用可在《不知如何」服務中取得的叢集資訊ONTAP Active IQ
+
+* 當顯示內部叢集的清單（Active IQ 根據您的NSS帳戶）時、您可以按一下按鈕 link:task-discovering-ontap.html#discovering-clusters-from-the-discovery-page["探索叢集"^] 並將其新增至Cloud Manager畫版。如此一來、您就能更輕鬆地從Cloud Manager管理所有儲存系統。
+* 當確定一個或多個叢集需要韌體更新時Active IQ 、您可以按一下按鈕來進行更新 link:task-managing-ontap.html#downloading-new-disk-and-shelf-firmware["下載Ansible教戰手冊並升級叢集韌體"^]。
+* 全新 link:task-managing-ontap.html#viewing-on-prem-workloads-that-are-candidates-for-the-cloud["雲端就緒工作負載索引標籤"^] 提供一份工作負載或磁碟區清單、其中列出我們認為是從內部ONTAP 的支援叢集移至雲端的理想選擇。移轉其中一些磁碟區、可能會降低成本、並改善效能與恢復能力。
++
+請參閱 link:https://www.netapp.com/knowledge-center/what-is-lift-and-shift["什麼是提升和轉變？"]
+
+

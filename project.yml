@@ -1,0 +1,65 @@
+---
+settings:
+  name: On-prem ONTAP clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
+sidebar:
+  entries:
+  - title: 所有Cloud Manager文件
+    url: https://docs.netapp.com/us-en/cloud-manager-family
+  - title: 內部ONTAP 部署：叢集文件
+    url: "/index.html"
+  - title: 版本資訊
+    url: "/whats-new.html"
+  - title: 開始使用
+    entries:
+    - title: 探索 ONTAP 叢集
+      url: "/task-discovering-ontap.html"
+  - title: 管理內部ONTAP 的叢集
+    entries:
+    - title: 管理內部ONTAP 的不全功能資料
+      url: "/task-provisioning-ontap.html"
+    - title: 使用Active IQ We Digital Advisor最佳化叢集
+      url: "/concept-aiq-digital-advisor.html"
+    - title: 使用Active IQ 不實資料管理叢集
+      url: "/task-managing-ontap.html"
+    - title: 移除內部ONTAP 環境的不正常運作環境
+      url: "/task-remove-on-prem.html"
+  - title: 知識與支援
+    entries:
+    - title: 註冊以取得支援
+      url: "/task-support-registration.html"
+    - title: 取得協助
+      url: "/task-get-help.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 檢視已探索及未探索的內部叢集
+      url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+    - title: 探索 ONTAP 叢集
+      url: task-discovering-ontap.html
+    - title: 新增功能
+      url: whats-new.html
+  - title: 管理內部ONTAP 的叢集
+    links:
+    - title: 建立磁碟區
+      url: task-provisioning-ontap.html
+    - title: 下載新的磁碟和機櫃韌體
+      url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
+  - title: 部落格社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central部落格
+      url: https://cloud.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://cloud.netapp.com/events
+product-family: {}
