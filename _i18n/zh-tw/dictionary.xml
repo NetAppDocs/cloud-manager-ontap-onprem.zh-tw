@@ -345,7 +345,6 @@
   <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支援註冊可從支援儀表板的Cloud Manager取得。</block>
   <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在* Resources（資源）*選項卡中，單擊* Register for Support*（註冊以獲得支持*）。</block>
   <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">選取您要登錄的NSS認證、然後按一下「*登錄*」。</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="9a30b78b07a6b42c9e4998f9c5d5640f" category="sidebar">內部ONTAP 部署：叢集文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -363,4 +362,59 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
+  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">以下變更是在版本3.9.19的Connector中提出的。</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
+  <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">深入瞭解進階檢視</block>
+  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
+  <block id="d7ce0ccf910efd77ec00e6d9bde719ca" category="doc">使用進階檢視來管理ONTAP</block>
+  <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
+  <block id="98a1dd953dfcb1729fd4013fc440cb56" category="paragraph">Cloud Manager的進階檢視可讓您存取其他管理功能：</block>
+  <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">進階儲存管理</block>
+  <block id="81988711ef6c9af40c8e8973f25c0bed" category="paragraph">管理一致性群組、共用區、qtree、配額和儲存VM。</block>
+  <block id="62735a856683757bf28f1f02f97c151c" category="list-text">網路管理</block>
+  <block id="90aa7b1e6da20918b753d835fd9d28fb" category="paragraph">管理IPspace、網路介面、連接埠集和乙太網路連接埠。</block>
+  <block id="5da3380058f326675f5268466ae0c24f" category="list-text">活動與工作</block>
+  <block id="59536015b2a8a8d499cbe947387acb5e" category="paragraph">檢視事件記錄、系統警示、工作和稽核記錄。</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="list-text">進階資料保護</block>
+  <block id="18edb92cf2cbf5a1d60be48cff4de617" category="paragraph">保護儲存VM、LUN及一致性群組。</block>
+  <block id="f17e729a409e6c0faa3ddab50e856b07" category="list-text">主機管理</block>
+  <block id="36eae32729ecc4b53ba38b252bc6b356" category="paragraph">設定SAN啟動器群組和NFS用戶端。</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">支援的組態</block>
+  <block id="8cc569c03bd345c450afe055c793f724" category="paragraph">透過System Manager的進階管理功能、可透過ONTAP 內部部署的支援執行9.10.0或更新版本的叢集來支援。</block>
+  <block id="0f1ca4e2133610fdc8b23e4db3f7cb0c" category="paragraph">不支援在GovCloud區域或沒有外傳網際網路存取的區域整合System Manager。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="1cca9df183cdd1916b224eb02b7018d7" category="paragraph">在Cloud Manager中使用進階檢視時、內部部署ONTAP 的叢集不支援幾項System Manager功能：</block>
+  <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">叢集設定</block>
+  <block id="95bf9ececffac617e1447cb41cbed6ca" category="paragraph">設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在Cloud Manager中探索叢集、然後從「進階檢視」繼續叢集設定。</block>
+  <block id="bec7e4750178c449b47b3663cb2804ea" category="list-text">雲端備份啟動</block>
+  <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">瞭解如何開始使用</block>
+  <block id="4bd7d8add0f25e108898d306e19a3841" category="paragraph">直接從Cloud Backup在內部部署叢集上啟用Cloud Backup。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block>。</block>
+  <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">隨需升級</block>
+  <block id="729efe039f733cfbcd1a94fd02a8b2c6" category="paragraph">無法隨需升級韌體和軟體。</block>
+  <block id="01ab8fe0565c01eb93456b579d969d66" category="list-text">角色型存取控制</block>
+  <block id="83f5656d14cbf1628e806237dd016ac6" category="paragraph">不支援System Manager的角色型存取控制。</block>
+  <block id="07e1d66babe77070cc76a4e637c9f26d" category="section-title">如何開始使用</block>
+  <block id="bbd3883401d7cab6239afc1bb95269c5" category="paragraph">開啟內部部署ONTAP 的「不工作環境」、然後按一下「進階檢視」選項。</block>
+  <block id="30712363115d96bac17774981ad3a874" category="list-text">在「畫版」頁面上、按兩下內部部署ONTAP 的運作環境名稱。</block>
+  <block id="a31b079030fd3d406e06a9ce180abf58" category="list-text">在右上角、按一下*切換至進階檢視*。</block>
+  <block id="0966bd9c118ee81138ac447c7ed4a14f" category="inline-image-macro">內部ONTAP 環境的快照、顯示「切換至進階檢視」選項。</block>
+  <block id="6665a86ade0699adb15fb4e2f3d44fbb" category="paragraph"><block ref="6665a86ade0699adb15fb4e2f3d44fbb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="74d668d6c47cd0c55c4ff8f77ad621bd" category="list-text">如果出現確認訊息、請仔細閱讀、然後按一下*關閉*。</block>
+  <block id="2384fee5ec28c392c4824455705673ad" category="list-text">使用System Manager來管理ONTAP 功能。</block>
+  <block id="ebd8c98f714943a83d08bf245c867de2" category="list-text">如有需要、請按一下*切換至標準檢視*、透過Cloud Manager返回標準管理。</block>
+  <block id="54cf4bb0cf2034f534f1bd85ab4a6bb0" category="inline-image-macro">內部ONTAP 環境的快照、顯示「切換至標準檢視」選項。</block>
+  <block id="922a5d434113f5026172e4d3ab5969a9" category="paragraph"><block ref="922a5d434113f5026172e4d3ab5969a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9091c5cdacecb3d4082594d5d5a31855" category="section-title">協助使用System Manager</block>
+  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">本文檔 ONTAP</block>
+  <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式）<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block> 以取得逐步指示。以下是幾個可能有幫助的連結：</block>
+  <block id="b9cf2d579e6b088870d384fe9910b52f" category="inline-link">Volume與LUN管理</block>
+  <block id="8fc667c489390551a74eb985b297d37a" category="list-text"><block ref="8fc667c489390551a74eb985b297d37a" category="inline-link-rx"></block></block>
+  <block id="3e49e5936cffd2e96856c25fa0417df2" category="inline-link">網路管理</block>
+  <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
+  <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">資料保護</block>
+  <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
+  <block id="e9c2ec7472702d9e84d77a3ecb12f454" category="sidebar">使用System Manager進行管理</block>
 </blocks>

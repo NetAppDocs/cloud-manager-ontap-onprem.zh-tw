@@ -10,8 +10,6 @@ settings:
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
 sidebar:
   entries:
-  - title: 所有Cloud Manager文件
-    url: https://docs.netapp.com/us-en/cloud-manager-family
   - title: 內部ONTAP 部署：叢集文件
     url: "/index.html"
   - title: 版本資訊
@@ -24,6 +22,8 @@ sidebar:
     entries:
     - title: 管理內部ONTAP 的不全功能資料
       url: "/task-provisioning-ontap.html"
+    - title: 使用System Manager進行管理
+      url: "/task-administer-advanced-view.html"
     - title: 使用Active IQ We Digital Advisor最佳化叢集
       url: "/concept-aiq-digital-advisor.html"
     - title: 使用Active IQ 不實資料管理叢集
@@ -65,3 +65,4 @@ homepage:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
+  sidebar_label: All Cloud Manager documentation

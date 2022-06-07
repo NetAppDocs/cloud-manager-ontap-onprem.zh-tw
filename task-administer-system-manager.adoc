@@ -1,0 +1,110 @@
+---
+sidebar: sidebar 
+permalink: task-administer-advanced-view.html 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager 
+summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。 
+---
+= 使用進階檢視來管理ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。
+
+此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。
+
+
+
+== 功能
+
+Cloud Manager的進階檢視可讓您存取其他管理功能：
+
+* 進階儲存管理
++
+管理一致性群組、共用區、qtree、配額和儲存VM。
+
+* 網路管理
++
+管理IPspace、網路介面、連接埠集和乙太網路連接埠。
+
+* 活動與工作
++
+檢視事件記錄、系統警示、工作和稽核記錄。
+
+* 進階資料保護
++
+保護儲存VM、LUN及一致性群組。
+
+* 主機管理
++
+設定SAN啟動器群組和NFS用戶端。
+
+
+
+
+
+== 支援的組態
+
+透過System Manager的進階管理功能、可透過ONTAP 內部部署的支援執行9.10.0或更新版本的叢集來支援。
+
+不支援在GovCloud區域或沒有外傳網際網路存取的區域整合System Manager。
+
+
+
+== 限制
+
+在Cloud Manager中使用進階檢視時、內部部署ONTAP 的叢集不支援幾項System Manager功能：
+
+* 叢集設定
++
+設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在Cloud Manager中探索叢集、然後從「進階檢視」繼續叢集設定。
+
+* 雲端備份啟動
++
+直接從Cloud Backup在內部部署叢集上啟用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]。
+
+* 隨需升級
++
+無法隨需升級韌體和軟體。
+
+* 角色型存取控制
++
+不支援System Manager的角色型存取控制。
+
+
+
+
+
+== 如何開始使用
+
+開啟內部部署ONTAP 的「不工作環境」、然後按一下「進階檢視」選項。
+
+.步驟
+. 在「畫版」頁面上、按兩下內部部署ONTAP 的運作環境名稱。
+. 在右上角、按一下*切換至進階檢視*。
++
+image:screenshot-advanced-view.png["內部ONTAP 環境的快照、顯示「切換至進階檢視」選項。"]
+
+. 如果出現確認訊息、請仔細閱讀、然後按一下*關閉*。
+. 使用System Manager來管理ONTAP 功能。
+. 如有需要、請按一下*切換至標準檢視*、透過Cloud Manager返回標準管理。
++
+image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切換至標準檢視」選項。"]
+
+
+
+
+
+== 協助使用System Manager
+
+如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式） https://docs.netapp.com/us-en/ontap/index.html["本文檔 ONTAP"^] 以取得逐步指示。以下是幾個可能有幫助的連結：
+
+* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Volume與LUN管理"^]
+* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["網路管理"^]
+* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["資料保護"^]
+
